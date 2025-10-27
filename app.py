@@ -1,7 +1,7 @@
 from dash import Dash, html
 import dash
 
-app = Dash(__name__)
+app = Dash(__name__, use_pages=True)
 
 app.layout = html.Div([
     html.H1("Covid-19 Economic Impact Dashboards"),
